@@ -36,11 +36,23 @@ nav a:hover {
   background-color: #D96459;
   color: white;
 }
+
+.quote {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quote blockquote {
+    font-style: italic;
+    color: #888; /* Cor do texto da citação */
+}
+
 .content {
   max-width: 800px; /* Ajuste o valor conforme necessário */
   margin: 0 auto; /* Centraliza o conteúdo na página */  
   padding: 20px;
 }
+
 
 .footer {
   background-color: #AB4642; /* Vermelho Escuro com Saturação Reduzida */
@@ -67,4 +79,52 @@ nav a:hover {
 
 .footer p {
   margin-top: 10px;
+}
+
+.content-testimonials {
+  max-width: 1000px; /* Ajuste o valor conforme necessário */
+  margin: 0 auto; /* Centraliza o conteúdo na página */  
+  padding: 20px;
+}
+
+.content-testimonials h2,
+.content-testimonials p {
+  margin: 0; /* Remove margem padrão do <p> */
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.testimonial {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+      width: 100%; /* Caixa ocupa a largura total em telas menores */
+      margin-bottom: 20px;
+  }
+}
+
+.author {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.avatar {
+  float: left;
+  margin-right: 10px;
+  max-width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
 }
