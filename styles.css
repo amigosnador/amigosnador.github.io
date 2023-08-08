@@ -53,6 +53,9 @@ nav a:hover {
   padding: 20px;
 }
 
+.content h2{
+  color: #913936;
+}
 
 .footer {
   background-color: #AB4642; /* Vermelho Escuro com Saturação Reduzida */
@@ -87,7 +90,11 @@ nav a:hover {
   padding: 20px;
 }
 
-.content-testimonials h2,
+.content-testimonials h2 {
+  color: #913936;
+  margin: 0;
+}
+
 .content-testimonials p {
   margin: 0; /* Remove margem padrão do <p> */
 }
@@ -134,4 +141,11 @@ nav a:hover {
   color: #333;
   margin-top: 10px;
   margin-bottom: 25px;
+}
+
+.ilustracao-conv {
+  max-width: 300px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
