@@ -136,16 +136,43 @@ nav a:hover {
   max-width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
 }
 
-.video-description {
-  font-size: 14px;
-  color: #333;
-  margin-top: 10px;
-  margin-bottom: 25px;
-}
-
 .ilustracao-conv {
   max-width: 300px; /* Ajuste conforme necessário */
   height: auto;
   margin-top: 15px;
   margin-bottom: 20px;
+}
+
+
+.text-and-img {
+  display: flex;
+  align-items: center;
+  max-width: 850px; /* Ajuste o valor conforme necessário */
+  margin: 0 auto; /* Centraliza o conteúdo na página */  
+  padding: 20px;
+}
+
+@media (max-width: 465px) {
+  .text-and-img {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.text-and-img h2{
+  color: #913936;
+}
+
+.ilustracao-sad {
+  max-width: 200px; /* Ajuste conforme necessário */
+  /*margin-right: 20px;*/
+  height: auto;
+}
+
+
+.video-description {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
