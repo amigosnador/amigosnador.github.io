@@ -128,3 +128,10 @@ nav a:hover {
   margin-right: 10px;
   max-width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
 }
+
+.video-description {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
