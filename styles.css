@@ -179,7 +179,7 @@ nav a:hover {
 
 @media (max-width: 570px) {
   .content iframe {
-      width: 336px;
-      height: 189px;
+      width: 280px;
+      height: 158px;
   }
 }
