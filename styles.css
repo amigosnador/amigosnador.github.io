@@ -44,7 +44,7 @@ nav a:hover {
 
 .quote blockquote {
     font-style: italic;
-    color: #888; /* Cor do texto da citação */
+    color: rgb(184, 85, 85)/* Cor do texto da citação */
 }
 
 .content {
@@ -65,12 +65,12 @@ nav a:hover {
 }
 
 .footer img {
-  max-width: 40px; /* Ajuste conforme necessário */
+  width: 40px; /* Ajuste conforme necessário */
   height: auto;
 }
 
 .contact a {
-  color: #F7CAC9; /* Tom de rosa pálido */
+  color: #f4d9d8; /* Tom de rosa pálido */
   text-decoration: none;
   margin: 0 10px;
   transition: color 0.3s ease;
