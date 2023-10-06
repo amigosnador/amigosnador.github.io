@@ -19,11 +19,11 @@ body {
   margin-left: 15px;
 }
 
-nav {
+.tabs {
   background-color: #913936;
   overflow: hidden;
 }
-nav a {
+.tab {
   float: left;
   display: block;
   color: #f5dbda;
@@ -32,7 +32,7 @@ nav a {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
-nav a:hover {
+.tab:hover {
   background-color: #D96459;
   color: white;
 }
