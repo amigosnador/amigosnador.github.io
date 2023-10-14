@@ -44,10 +44,12 @@ body {
   /* Estilos para as abas na barra lateral */
   .tabs {
       flex-direction: column;
+      background-color: #913936;
   }
   .tab {
       padding: 15px;
       /*border-bottom: 1px solid #ddd;*/
+      color: #f5dbda;
       text-align: left;
       text-decoration: none;
       display: block;
