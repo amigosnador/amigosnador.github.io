@@ -19,20 +19,76 @@ body {
   margin-left: 15px;
 }
 
-nav {
-  background-color: #913936;
-  overflow: hidden;
+
+@media (max-width: 768px) {
+  /* Defina o menu lateral à esquerda */
+  #menu-container {
+    position: absolute;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    transition: left 0.3s ease;
+    overflow-y: auto; /* Adicionado para permitir rolagem na barra lateral */
+    margin-top: 70px;
+  }
+  #menu-container.hidden {
+    left: -250px;
+  }
+
+  #menu-container.active {
+    left: 0; /* Mostrar o menu quando estiver ativo */
+  }
+
+
+  /* Estilos para as abas na barra lateral */
+  .tabs {
+      flex-direction: column;
+      background-color: #913936;
+  }
+  .tab {
+      padding: 15px;
+      /*border-bottom: 1px solid #ddd;*/
+      color: #f5dbda;
+      text-align: left;
+      text-decoration: none;
+      display: block;
+      transition: background-color 0.3s ease;
+  }  
+  #side-menu-button {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+  }
 }
-nav a {
-  float: left;
-  display: block;
-  color: #f5dbda;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+
+@media (min-width: 768px) {
+  .tabs {
+    background-color: #913936;
+    overflow: hidden;
+  }
+  
+  
+  .tab {
+    float: left;
+    display: block;
+    color: #f5dbda;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  #side-menu-button {
+    display: none;
+
+  }
+  
 }
-nav a:hover {
+
+.tab:hover {
   background-color: #D96459;
   color: white;
 }
