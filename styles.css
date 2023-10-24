@@ -113,6 +113,10 @@ body {
   color: #913936;
 }
 
+.content h3{
+  color: #913936;
+}
+
 .footer {
   background-color: #AB4642; /* Vermelho Escuro com Saturação Reduzida */
   color: white;
