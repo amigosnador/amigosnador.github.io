@@ -1,13 +1,22 @@
 //tawkto script
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart=new Date();
 (function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/64ff76910f2b18434fd7f1e7/1ha2ueaka';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64ff76910f2b18434fd7f1e7/1ha2ueaka';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+
+    //tawk to google ADS
+    Tawk_API.onChatStarted = function(){   
+        gtag('event', 'conversion', {'send_to': 'AW-870658922/5kBECLDb6t8DEOrmlJ8D'});
+        // Adicione um console.log para verificar se a função está sendo chamada
+        console.log("Chat iniciado! Função de rastreamento de conversão executada.");
+    };
+
 })();
+
 
 //sidebar das paginas
 document.addEventListener("DOMContentLoaded", function () {
