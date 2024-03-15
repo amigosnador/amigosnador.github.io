@@ -11,8 +11,6 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart=new Date();
     //tawk to google ADS
     Tawk_API.onChatStarted = function(){   
         gtag('event', 'conversion', {'send_to': 'AW-870658922/5kBECLDb6t8DEOrmlJ8D'});
-        // Adicione um console.log para verificar se a função está sendo chamada
-        console.log("Chat iniciado! Função de rastreamento de conversão executada.");
     };
 
 })();
