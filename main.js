@@ -8,11 +8,9 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart=new Date();
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
 
-    //tawk to google ADS
-    Tawk_API.onChatStarted = function(){   
+    //tawk to google ADS, conversão ao preencher o formulário pré-chat
+    Tawk_API.onPrechatSubmit = function(data){
         gtag('event', 'conversion', {'send_to': 'AW-870658922/5kBECLDb6t8DEOrmlJ8D'});
-        // Adicione um console.log para verificar se a função está sendo chamada
-        console.log("Chat iniciado! Função de rastreamento de conversão executada.");
     };
 
 })();
