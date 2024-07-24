@@ -243,3 +243,35 @@ body {
       height: 158px;
   }
 }
+
+
+#posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .post {
+      width: 100%; /* Caixa ocupa a largura total em telas menores */
+      margin-bottom: 20px;
+  }
+}
+
+.ilustracao-post {
+  width: calc(100% - 30px);
+  /*width: 350px;*/
+  /*height: 200px;*/
+}

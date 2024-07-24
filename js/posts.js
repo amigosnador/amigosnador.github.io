@@ -26,7 +26,36 @@ const posts = [
     "data": "00-00-0000",
     "url": "blog/confianca/deus_conhece_nossas_duvidas.html",
     "conteudo": "A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais"
+    },
+    {
+    "titulo": "BUSQUE O SENHOR NOS TEMPOS DE ANGÚSTIA",
+    "autor": "Paul Tautges",
+    "data": "00-00-0000",
+    "url": "blog/depressao/busque_o_senhor_nos_tempos_de_angustia.html",
+    "conteudo": ""
+    },
+    {
+    "titulo": "JESUS CRISTO É A NOSSA ESPERANÇA",
+    "autor": "Jeff Christianson",
+    "data": "00-00-0000",
+    "url": "blog/depressao/jesus_cristo_e_a_nossa_esperanca.html",
+    "conteudo": ""
+    },
+    {
+    "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
+    "autor": "Kyle Johnston",
+    "data": "00-00-0000",
+    "url": "blog/depressao/perseverando_atraves_da_tristeza_em_oracao.html",
+    "conteudo": ""
+    },
+    {
+    "titulo": "SOLIDÃO",
+    "autor": "Anne Dryburgh",
+    "data": "00-00-0000",
+    "url": "blog/depressao/solidao.html",
+    "conteudo": ""
     }
+
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -36,10 +65,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const postElement = document.createElement('div');
         postElement.classList.add('post');
         postElement.innerHTML = `
-        <h3><a href="${post.url}">${post.titulo}</a></h3>
-            <p>${post.data}</p>
-            <p>${post.autor}</p>
+        <a href="${post.url}">
+            <img class="ilustracao-post" src="imgs/blog/tempestades-da-vida.jpeg" alt="postagem">
+        </a>
+        <h4><a href="${post.url}">${post.titulo}</a></h4>
+            <p>${post.data} <i>${post.autor}</i></p>
         `;
         postsContainer.appendChild(postElement);
     });
 });
+
