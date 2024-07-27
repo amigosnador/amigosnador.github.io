@@ -20,7 +20,7 @@ const posts = [
     "autor": "Andrew Dealy",
     "data": "00-00-0000",
     "url": "blog/confianca/confiando_no_tempo_e_na_provisao_de_deus.html",
-    "imagem": "imgs/blog/tempestades-da-vida.jpeg",
+    "imagem": "imgs/blog/prisao.jpeg",
     "conteudo": "E quando o pegou, ele o colocou na prisão, entregando-o a quatro esquadrões de soldados para guardá-lo, com a intenção de trazê-lo diante do povo depois da Páscoa. Assim, Pedro estava mantido na prisão, mas a igreja orava fervorosamente por ele a Deus. E quando Herodes estava prestes a trazê-lo para"
     },
     {
@@ -28,7 +28,7 @@ const posts = [
     "autor": "Dave Dunham",
     "data": "00-00-0000",
     "url": "blog/confianca/deus_conhece_nossas_duvidas.html",
-    "imagem": "imgs/blog/tempestades-da-vida.jpeg",
+    "imagem": "imgs/blog/duvidas.jpeg",
     "conteudo": "A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais"
     },
     {
@@ -44,7 +44,7 @@ const posts = [
     "autor": "Jeff Christianson",
     "data": "00-00-0000",
     "url": "blog/depressao/jesus_cristo_e_a_nossa_esperanca.html",
-    "imagem": "imgs/blog/tempestades-da-vida.jpeg",
+    "imagem": "imgs/blog/cristo.jpeg",
     "conteudo": ""
     },
     {
