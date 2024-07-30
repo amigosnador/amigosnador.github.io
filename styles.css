@@ -219,15 +219,40 @@ body {
   }
 }
 
-.text-and-img h2{
-  color: #913936;
-}
 
 .ilustracao-sad {
   max-width: 200px; /* Ajuste conforme necessário */
   /*margin-right: 20px;*/
   height: auto;
 }
+
+#main-text-container {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.img-and-text {
+  display: flex;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 465px) {
+  .img-and-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.ilustracao-maintext {
+  max-width: 200px;
+  margin-right: 20px;
+  height: auto;
+}
+
 
 
 .video-description {

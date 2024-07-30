@@ -1,5 +1,13 @@
 const posts = [
     {
+    "titulo": "JESUS CRISTO É A NOSSA ESPERANÇA",
+    "autor": "Jeff Christianson",
+    "data": "00-00-0000",
+    "url": "blog/depressao/jesus_cristo_e_a_nossa_esperanca.html",
+    "imagem": "imgs/blog/cristo.jpeg",
+    "conteudo": "Todos nós lutamos às vezes com desânimo, com preocupações que podem se transformar em ansiedade ou inquietação. Adicione à mistura a crise mundial, desafios com saúde, dinheiro, política, estresse emocional e relacional, e não é surpreendente que dúvidas e conflitos abundem entre as pessoas hoje."
+    },
+    {
     "titulo": "ONDE BUSCAR SOCORRO QUANDO ESTOU SOFRENDO?",
     "autor": "Julie Ganschow",
     "data": "00-00-0000",
@@ -40,14 +48,6 @@ const posts = [
     "conteudo": ""
     },
     {
-    "titulo": "JESUS CRISTO É A NOSSA ESPERANÇA",
-    "autor": "Jeff Christianson",
-    "data": "00-00-0000",
-    "url": "blog/depressao/jesus_cristo_e_a_nossa_esperanca.html",
-    "imagem": "imgs/blog/cristo.jpeg",
-    "conteudo": ""
-    },
-    {
     "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
     "autor": "Kyle Johnston",
     "data": "00-00-0000",
@@ -63,20 +63,28 @@ const posts = [
     "imagem": "imgs/blog/solidao.jpeg",
     "conteudo": ""
     }
-
 ];
 
+// TODO: na versão para celular centralizar a imagem do texto principal
 document.addEventListener("DOMContentLoaded", function() {
+    const mainTextContainer = document.getElementById('main-text-container');
     const postsContainer = document.getElementById('posts-container');
     
-    posts.forEach(post => {
+    //const textElement = document.createElement('div');
+    mainTextContainer.innerHTML = `
+    <a href="${posts[0].url}"> <img class="ilustracao-maintext" src="${posts[0].imagem}" alt="postagem"> </a>
+    <div class="content">
+	    <h2>${posts[0].titulo}</h2>
+	    <p>${posts[0].conteudo}<b><a href="${posts[0].url}"> Ler mais...</a></b></p>
+    </div>
+    `;
+    
+
+    posts.slice(1).forEach(post => {
         const postElement = document.createElement('div');
         postElement.classList.add('post');
         postElement.innerHTML = `
-        <a href="${post.url}">
-            
-            <img class="ilustracao-post" src="${post.imagem}" alt="postagem">
-        </a>
+        <a href="${post.url}"> <img class="ilustracao-post" src="${post.imagem}" alt="postagem"> </a>
         <h4><a href="${post.url}">${post.titulo}</a></h4>
             <p>${post.data} <i>${post.autor}</i></p>
         `;
