@@ -1,5 +1,14 @@
 const posts = [
     {
+        "titulo": "CONFIANDO NO TEMPO E NA PROVISÃO DE DEUS",
+        "autor": "Andrew Dealy",
+        "data": "11-08-2024",
+        "categoria": "confiança",
+        "url": "blog/confianca/confiando_no_tempo_e_na_provisao_de_deus.html",
+        "imagem": "imgs/blog/prisao.jpeg",
+        "conteudo": "E quando o pegou, ele o colocou na prisão, entregando-o a quatro esquadrões de soldados para guardá-lo, com a intenção de trazê-lo diante do povo depois da Páscoa. Assim, Pedro estava mantido na prisão, mas a igreja orava fervorosamente por ele a Deus. E quando Herodes estava prestes a trazê-lo para"
+    },
+    {
     "titulo": "JESUS CRISTO É A NOSSA ESPERANÇA",
     "autor": "Jeff Christianson",
     "data": "01-08-2024",
@@ -26,15 +35,6 @@ const posts = [
     "imagem": "imgs/blog/tempestades-da-vida.jpeg",
     "conteudo": "Quando eu era criança crescendo na Carolina do Sul, eu adorava tempestades. Eu observava o vento uivante soprar as folhas dos galhos das árvores e as gotas de chuva baterem na grama sob o céu escuro e cinzento. Se estivéssemos na casa da minha avó, ela nos fazia desligar tudo elétrico."
     }/*,
-    {
-    "titulo": "CONFIANDO NO TEMPO E NA PROVISÃO DE DEUS",
-    "autor": "Andrew Dealy",
-    "data": "00-00-0000",
-    "categoria": "confiança",
-    "url": "blog/confianca/confiando_no_tempo_e_na_provisao_de_deus.html",
-    "imagem": "imgs/blog/prisao.jpeg",
-    "conteudo": "E quando o pegou, ele o colocou na prisão, entregando-o a quatro esquadrões de soldados para guardá-lo, com a intenção de trazê-lo diante do povo depois da Páscoa. Assim, Pedro estava mantido na prisão, mas a igreja orava fervorosamente por ele a Deus. E quando Herodes estava prestes a trazê-lo para"
-    },
     {
     "titulo": "DEUS CONHECE AS NOSSAS DÚVIDAS",
     "autor": "Dave Dunham",
