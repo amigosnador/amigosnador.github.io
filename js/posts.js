@@ -1,5 +1,14 @@
 const posts = [
     {
+        "titulo": "BUSQUE O SENHOR NOS TEMPOS DE ANGÚSTIA",
+        "autor": "Paul Tautges",
+        "data": "11-09-2024",
+        "categoria": "depressão",
+        "url": "blog/depressao/busque_o_senhor_nos_tempos_de_angustia.html",
+        "imagem": "imgs/blog/tempo-de-Deus.jpeg",
+        "conteudo": "Desapontamento, desânimo, depressão e até mesmo desespero que leva à dúvida em Deus não são incomuns neste mundo caído. Homens e mulheres piedosos já enfrentaram tempos de dificuldade; eles não estão isentos de aprender a perseverar através de períodos de escuridão e neblina, mesmo que em um"
+    },
+    {
         "titulo": "CONFIANDO NO TEMPO E NA PROVISÃO DE DEUS",
         "autor": "Andrew Dealy",
         "data": "11-08-2024",
@@ -43,15 +52,6 @@ const posts = [
     "url": "blog/confianca/deus_conhece_nossas_duvidas.html",
     "imagem": "imgs/blog/duvidas.jpeg",
     "conteudo": "A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais"
-    },
-    {
-    "titulo": "BUSQUE O SENHOR NOS TEMPOS DE ANGÚSTIA",
-    "autor": "Paul Tautges",
-    "data": "00-00-0000",
-    "categoria": "depressão",
-    "url": "blog/depressao/busque_o_senhor_nos_tempos_de_angustia.html",
-    "imagem": "imgs/blog/tempo-de-Deus.jpeg",
-    "conteudo": ""
     },
     {
     "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
