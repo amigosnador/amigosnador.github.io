@@ -1,5 +1,14 @@
 const posts = [
     {
+        "titulo": "DEUS CONHECE AS NOSSAS DÚVIDAS",
+        "autor": "Dave Dunham",
+        "data": "18-09-2024",
+        "categoria": "confiança",
+        "url": "blog/confianca/deus_conhece_nossas_duvidas.html",
+        "imagem": "imgs/blog/duvidas.jpeg",
+        "conteudo": "A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais"
+        },
+    {
         "titulo": "BUSQUE O SENHOR NOS TEMPOS DE ANGÚSTIA",
         "autor": "Paul Tautges",
         "data": "11-09-2024",
@@ -44,15 +53,6 @@ const posts = [
     "imagem": "imgs/blog/tempestades-da-vida.jpeg",
     "conteudo": "Quando eu era criança crescendo na Carolina do Sul, eu adorava tempestades. Eu observava o vento uivante soprar as folhas dos galhos das árvores e as gotas de chuva baterem na grama sob o céu escuro e cinzento. Se estivéssemos na casa da minha avó, ela nos fazia desligar tudo elétrico."
     }/*,
-    {
-    "titulo": "DEUS CONHECE AS NOSSAS DÚVIDAS",
-    "autor": "Dave Dunham",
-    "data": "00-00-0000",
-    "categoria": "confiança",
-    "url": "blog/confianca/deus_conhece_nossas_duvidas.html",
-    "imagem": "imgs/blog/duvidas.jpeg",
-    "conteudo": "A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais"
-    },
     {
     "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
     "autor": "Kyle Johnston",
