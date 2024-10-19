@@ -1,5 +1,14 @@
 const posts = [
     {
+        "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
+        "autor": "Kyle Johnston",
+        "data": "19-10-2024",
+        "categoria": "depressão",
+        "url": "blog/depressao/perseverando_atraves_da_tristeza_em_oracao.html",
+        "imagem": "imgs/blog/oracao.jpeg",
+        "conteudo": "A tristeza e o desespero são realidades dolorosas para todos nós. Não é surpreendente que muitos de nós frequentemente respondamos à profunda tristeza com um otimismo irrealista ou negação desajeitada. A perda ou a dor podem ser difíceis de lidar, então procuramos evitá-las. Sei que isso é verdade"
+        },
+    {
         "titulo": "DEUS CONHECE AS NOSSAS DÚVIDAS",
         "autor": "Dave Dunham",
         "data": "18-09-2024",
@@ -53,15 +62,6 @@ const posts = [
     "imagem": "imgs/blog/tempestades-da-vida.jpeg",
     "conteudo": "Quando eu era criança crescendo na Carolina do Sul, eu adorava tempestades. Eu observava o vento uivante soprar as folhas dos galhos das árvores e as gotas de chuva baterem na grama sob o céu escuro e cinzento. Se estivéssemos na casa da minha avó, ela nos fazia desligar tudo elétrico."
     }/*,
-    {
-    "titulo": "PERSEVERANDO ATRAVÉS DA TRISTEZA EM ORAÇÃO",
-    "autor": "Kyle Johnston",
-    "data": "00-00-0000",
-    "categoria": "depressão",
-    "url": "blog/depressao/perseverando_atraves_da_tristeza_em_oracao.html",
-    "imagem": "imgs/blog/oracao.jpeg",
-    "conteudo": ""
-    },
     {
     "titulo": "SOLIDÃO",
     "autor": "Anne Dryburgh",
