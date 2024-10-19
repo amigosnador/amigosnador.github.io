@@ -36,7 +36,7 @@ const headHTMLBlog = `
 	</script>
 `;
 
-
+/*
 function loadHeadContent() {
     document.head.innerHTML = headHTML;
 }
@@ -44,6 +44,7 @@ function loadHeadContent() {
 function loadHeadContentBlog() {
     document.head.innerHTML = headHTMLBlog;
 }
+*/
 
 document.addEventListener("DOMContentLoaded", function() {
 
