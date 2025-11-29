@@ -43,7 +43,7 @@ const headerHTMLBlog = `
 const footerHTML = `
 <footer class="footer">
 		<div class="contact">
-			
+
 			<a href="https://www.instagram.com/amigosnador.ipn">
 				<img src="imgs/inst.png" alt="Instagram">
 			</a>
@@ -60,14 +60,14 @@ const footerHTML = `
 			<br>
 			<a href="mailto:amigosnador@gmail.com">amigosnador@gmail.com</a>
 		</div>
-		<p>Igreja Presbiteriana Nacional – 2016-2024. Todos os direitos reservados</p>
+		<p>Igreja Presbiteriana Nacional – 2016-2025. Todos os direitos reservados</p>
 	</footer>
 `;
 
 const footerHTMLBlog = `
 <footer class="footer">
 		<div class="contact">
-			
+
 			<a href="https://www.instagram.com/amigosnador.ipn">
 				<img src="../../imgs/inst.png" alt="Instagram">
 			</a>
@@ -84,23 +84,27 @@ const footerHTMLBlog = `
 			<br>
 			<a href="mailto:amigosnador@gmail.com">amigosnador@gmail.com</a>
 		</div>
-		<p>Igreja Presbiteriana Nacional – 2016-2024. Todos os direitos reservados</p>
+		<p>Igreja Presbiteriana Nacional – 2016-2025. Todos os direitos reservados</p>
 	</footer>
 `;
 
 function loadComponent(elementId, htmlContent) {
-    document.getElementById(elementId).innerHTML = htmlContent;
+  document.getElementById(elementId).innerHTML = htmlContent;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
+  var currentPage = window.location.pathname.split("/").pop();
 
-	var currentPage = window.location.pathname.split("/").pop();
-
-    if (currentPage === "atendimentos.html" || currentPage === "conteudos.html" || currentPage === "index.html" || currentPage === "depoimentos.html") {
-        loadComponent('header-container', headerHTML);
-		loadComponent('footer-container', footerHTML);
-    } else {
-        loadComponent('header-container', headerHTMLBlog);
-		loadComponent('footer-container', footerHTMLBlog);
-    }
+  if (
+    currentPage === "atendimentos.html" ||
+    currentPage === "conteudos.html" ||
+    currentPage === "index.html" ||
+    currentPage === "depoimentos.html"
+  ) {
+    loadComponent("header-container", headerHTML);
+    loadComponent("footer-container", footerHTML);
+  } else {
+    loadComponent("header-container", headerHTMLBlog);
+    loadComponent("footer-container", footerHTMLBlog);
+  }
 });
