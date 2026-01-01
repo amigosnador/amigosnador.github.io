@@ -60,7 +60,7 @@ const footerHTML = `
 			<br>
 			<a href="mailto:amigosnador@gmail.com">amigosnador@gmail.com</a>
 		</div>
-		<p>Igreja Presbiteriana Nacional – 2016-2025. Todos os direitos reservados</p>
+		<p>Igreja Presbiteriana Nacional – 2016-2026. Todos os direitos reservados</p>
 	</footer>
 `;
 
@@ -84,7 +84,7 @@ const footerHTMLBlog = `
 			<br>
 			<a href="mailto:amigosnador@gmail.com">amigosnador@gmail.com</a>
 		</div>
-		<p>Igreja Presbiteriana Nacional – 2016-2025. Todos os direitos reservados</p>
+		<p>Igreja Presbiteriana Nacional – 2016-2026. Todos os direitos reservados</p>
 	</footer>
 `;
 
